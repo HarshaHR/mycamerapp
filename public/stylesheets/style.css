@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  margin: 0 0 !important;
+  padding: 0 0 !important;
+
+}
+
+header{
+  height: 12vh;
+  width: 100vw;
+  font-size: 2vw;
+  float: left;
+  background-color: #FF5722;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#maindiv{
+  height: 60vh;
+  width: 100vw;
+  float: left;
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+video{
+  float: left;
+  height: 100%;
+  width: 40vw;
+  position: relative;
+}
+
+img{
+  height: 100%;
+  width: 40vw;
+  position: relative;
+}
+
+#imagecontroller{
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  float: left;
+  position: relative;
+}
+
+button{
+  height: 100%;
+  width: 8vw;
+  background-color: blue;
+  border: 0 !important;
+  color: #ffffff;
+  margin: 0 1vw 0 1vw;
+  font-size: 1vw;
+}
